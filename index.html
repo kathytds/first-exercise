@@ -6,6 +6,43 @@
     <title>Document</title>
 </head>
 <body>
+<header>
+    <h1>Club de Tenis</h1>
+    <nav>
+        <ul>
+            <li><a href="#reservas">Reservas de Canchas</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
 
+<section id="reservas">
+    <h2>Reservas de Canchas</h2>
+    <p>Reserva tu cancha de tenis fácilmente. Selecciona la fecha y hora:</p>
+    <form>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" required>
+        <button type="submit">Reservar</button>
+    </form>
+</section>
+
+<section id="productos">
+    <h2>Venta de Productos</h2>
+    <ul>
+        <li>Raquetas de tenis - $100</li>
+        <li>Pelotas de tenis (pack x3) - $15</li>
+        <li>Ropa deportiva - $40</li>
+        <li>Zapatillas - $80</li>
+    </ul>
+    <button>Comprar ahora</button>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Tienes dudas? Escríbenos a <a href="mailto:info@clubtenis.com">info@clubtenis.com</a></p>
+</section>
 </body>
 </html>
